@@ -3,14 +3,14 @@
 
 const readline = require (`readline-sync`)
 
-let NumeroA = readline.questionInt("digite o numero A: \n")
-let NumeroB = readline.questionInt("digite o numero B: \n")
-let NumeroC = readline.questionInt("digite o numero C: \n")
+let numeroA = readline.questionInt("digite o numero A: \n")
+let numeroB = readline.questionInt("digite o numero B: \n")
+let numeroC = readline.questionInt("digite o numero C: \n")
 
 
-if (NumeroA+NumeroB === NumeroC){
+if (numeroA+numeroB === numeroC){
 console.log("Igual a C");
-}  else if(NumeroA+NumeroB < NumeroC) {
+}  else if(numeroA+numeroB < numeroC) {
    console.log("Menor  que C");
 } else {
    console.log("Maior que C");
@@ -19,15 +19,15 @@ console.log("Igual a C");
 
 /*const readline = require (`readline-sync`)
 
-let NumeroA = readline.questionInt("digite o numero A: \n")
-let NumeroB = readline.questionInt("digite o numero B: \n")
-let NumeroC = readline.questionInt("digite o numero C: \n")
+let numeroA = readline.questionInt("digite o numero A: \n")
+let numeroB = readline.questionInt("digite o numero B: \n")
+let numeroC = readline.questionInt("digite o numero C: \n")
 
-let soma = NumeroA+NumeroB;
+let soma = numeroA+numeroB;
 
-if (soma === NumeroC){
+if (soma === numeroC){
 console.log("Igual a C");
-}  else if( soma < NumeroC) {
+}  else if( soma < numeroC) {
    console.log("Menor  que C");
 } else {
    console.log("Maior que C");
